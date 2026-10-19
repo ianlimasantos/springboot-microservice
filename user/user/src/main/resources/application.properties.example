@@ -1,0 +1,10 @@
+server.port=8081
+
+spring.datasource.url=jdbc:postgresql://localhost:5433/ms-user
+spring.datasource.username=postgres
+spring.datasource.password=INSERT YOUR PASSWORD
+
+spring.jpa.hibernate.ddl-auto=update
+spring.rabbitmq.addresses= INSERT YOUR ADDRESS
+
+broker.queue.email.name=default.email

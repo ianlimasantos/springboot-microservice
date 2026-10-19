@@ -1,0 +1,18 @@
+server.port=8082
+
+spring.datasource.url=jdbc:postgresql://localhost:5433/ms-email
+spring.datasource.username=postgres
+spring.datasource.password=INSERT_PASSWORD
+
+spring.jpa.hibernate.ddl-auto=update
+
+spring.rabbitmq.addresses=INSERT_YOUR
+
+broker.queue.email.name=default.email
+
+spring.mail.host=smtp.gmail.com
+spring.mail.port=587
+spring.mail.username=INSERT EMAIL @gmail.com
+spring.mail.password=INSERT PASSWORD
+spring.mail.properties.mail.smtp.auth=true
+spring.mail.properties.mail.smtp.starttls.enable=true
